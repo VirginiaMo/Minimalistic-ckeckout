@@ -1,0 +1,244 @@
+/**_____________________________mobile______________________________________________*/
+
+.card-img-top{
+    width: 150px;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.card-title{
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.card-text{
+    text-align:center;   
+}
+.btn{
+  margin-top:1rem;
+  margin-left:2rem ;
+  margin-bottom: 0.5rem;
+  width: 18rem;
+  font-size: 23px;
+}
+.price{
+    font-weight: bold;
+    text-align:center;
+    font-size: 1.2rem;
+}
+.fa-apple{
+    margin-right: 10px;
+}
+.PaywithCard{
+    margin-top: 20px;
+    color: #A9AAAA;
+    margin-left: 7rem;
+}
+.countriesClass{
+    width: 18.7rem;
+    margin-left: 1rem;
+
+}
+.back{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  color:gray;
+}
+.fa-arrow-left{
+  margin-top: 1.4rem;
+}
+.zip{
+  width: 18.7rem;
+}
+.visa{
+    width: 40px;
+
+}
+.input-icono {
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgba(9, 113, 163, 1);
+    border-radius: 3px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .input-icono input {
+    width: 100%;
+    font-size: 0.9em;
+    border: none;
+    
+  }
+  .input-icono input:focus {
+    outline: none;
+  }
+.container_wraper {
+  display: flex;
+  flex-direction: column;
+}
+.inputEmail{
+  width: 18.7rem;
+}
+.nameInput{
+  width:18.7rem;
+}
+
+input{
+  margin-left: 1rem;
+
+}
+.cardInfo{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.mesAnno{
+  width: 8.9rem;
+}
+.cvc{
+  width: 8.9rem;
+}
+
+p{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#btn589{
+  width: 18.7rem;
+  margin-left: 1rem;
+  font-size: 20px;
+}
+.redsys{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 4.5rem;
+  color: gray;
+}
+.termsAndPrivacy{
+  display: flex;
+  flex-direction: row;
+  margin-left:5rem;
+ 
+}
+a{
+  text-decoration: none;
+  color:gray;
+}
+
+
+
+/**_________________________________media query_______ Large devices (desktops, 992px and up)_________________________________________________________*/
+@media (min-width: 992px) { 
+  .pagar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+    margin-top: -34rem;
+  }
+  .email{
+ 
+   margin-left: 31rem;
+ }
+  .input-icono{
+  margin-left: 32rem;
+  }
+  .cardInfo{
+  margin-left: 31rem;
+  margin-top: 0rem;
+  }
+  .mesAnno{
+  width: 9.5rem;
+  margin-right: -1rem;
+  }
+  .cvc{
+  width: 9.5rem;
+
+  }
+  .NameOnCard{
+    margin-left: 31rem;
+  }
+
+  .container_country{
+    margin-left: 31rem;
+  }
+
+  .termsAndPrivacy{
+    display: flex;
+    flex-direction: row;
+    margin-left:5rem;
+    margin-top: -1rem;
+   
+  }
+  
+}
+
+/**_________________________________media query__Extra large devices (large desktops, 1200px and up)_________________________________________________________*/
+@media (min-width: 1200px) { 
+
+  .pagar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: -34rem;
+  }
+
+  .email{
+ 
+    margin-left: 41rem;
+  }
+   .input-icono{
+   margin-left: 42rem;
+   }
+   .cardInfo{
+   margin-left: 41rem;
+   margin-top: 0rem;
+   }
+   .mesAnno{
+   width: 9.5rem;
+   margin-right: -1rem;
+   }
+   .cvc{
+   width: 9.5rem;
+ 
+   }
+   .NameOnCard{
+     margin-left: 41rem;
+   }
+ 
+   .container_country{
+     margin-left: 41rem;
+   }
+ 
+   .termsAndPrivacy{
+     display: flex;
+     flex-direction: row;
+     margin-left:5rem;
+     margin-top: -1rem;
+    
+   }
+   .back{
+     margin-left: 8rem;
+   }
+   .card{
+     margin-left: 8rem;
+   }
+   .redsys{
+     margin-left: 12rem;
+   }
+   .termsAndPrivacy{
+     margin-left: 12rem;
+   }
+ }

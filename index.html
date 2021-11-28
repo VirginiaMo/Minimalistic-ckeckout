@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minimalistic checkout </title>
+</head>
+<body>
+    <div class="back">
+      <a><i class="fas fa-arrow-left"></i></a>
+      <p>Back to the market</p>
+    </div>
+    <div class="card" style="width: 20em;">
+        <h4 class="card-title">Iphone 13 Pro</h4>
+        <img src="/imagenes/iphone.png" class="card-img-top" alt="...">
+        <div class="card-body">   
+          <p class="card-text">Smooth, responsive Super Retina XDR display with ProMotion.</p>
+          <p class="price">Basic Color: 589€</p>
+        </div>
+      </div>
+      <div class="pagar">
+        <button class="btn btn-primary"> <i class="fab fa-apple"></i><a href="#" ></a>Pay</button>
+        <p class="PaywithCard">Or pay with card</p>
+        </div>
+      <div class="container_wraper">
+        <div class="email">
+          <p >Email</p>
+        <input class="inputEmail"type="text" placeholder="email" name="email"value="email"  onsubmit="return validateemail();"  required />
+       </div>
+        <div class="input-icono" >
+          <input class="inputCard"type="text" name="num" placeholder="1234 1234 1234 1234 " required />
+          <img src="/imagenes/visa.png" width="30px">
+          <img src="/imagenes/discover.png" width="30px">
+          <img src="/imagenes/american-express.png" width="30px">
+          <img src="/imagenes/maestro.png" width="30px">
+        </div>
+      <div class="cardInfo">
+        <input  class="mesAnno"type="text" placeholder="MM / YY" name="numero" required/>
+        <input class="cvc" type="text" placeholder="CVC"  required/>
+      </div>
+      <div class="NameOnCard">
+        <p>Name on card</p>
+        <input class="nameInput"type="text" placeholder="name" required />
+      </div>
+      <div class="container_country">
+        <p>Country or region</p>
+        <select class="countriesClass" id="countries" name="search"/>
+        <input class="zip"type="text" placeholder="ZIP"required />
+        <button id="btn589"class="btn btn-primary">Pay 589</button>
+      </div>
+    </div>
+        <footer>
+          <div class="redsys">
+          <p>Powered by</p><img src="/imagenes/redsys.png" width="60px">
+          </div>
+          <div class="termsAndPrivacy">
+          <p><a href="#">Terms</a></p>
+          <p><a href="#">Privacy</a></p>
+        </div>
+        </footer>
+  
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
